@@ -1,0 +1,130 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+	
+}
+body
+{
+		background-image: url(data:image/jpeg;base64,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);
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: 100% 50%;
+
+}
+nav
+{
+	position: fixed;
+	background: #1b1b1b;
+	width: 100%;
+	padding: 10px 0;
+	z-index: 12;
+}
+nav .menu 
+{
+	max-width: 1250px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.menu .logo a 
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+}
+.menu ul
+{
+	display: inline-flex;
+}
+.menu ul li 
+{
+	list-style: none;
+	margin-left: 7px;
+}
+.menu ul li a 
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 8px 15px;
+	translation: all 0.3s erase;
+}
+.menu ul li a:hover
+{
+	background: #fff;
+	color: #000;
+}
+.img
+{
+	
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	position: relative;
+}
+.img::before
+{
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+}
+.center
+{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%,-50%);
+	padding: 0 20px;
+	text-align: center;
+}
+.center .title
+{
+	color: #fff;
+	font-size: 55px;
+	font-weight: 600;
+}
+.center .sub_title
+{
+	color: #fff;
+	font-size: 52px;
+	font-weight: 600;
+}
+.center .btns 
+{
+	margin-top: 20px;
+}
+.center .btns button
+{
+	height: 55px;
+	width: 170px;
+	border-radius: 5px;
+	border: none;
+	margin: 0 10px;
+	border: 2px solid #fff;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 0 10px;
+	cursor: pointer;
+	outline: none;
+	transition: all 0.3s ease;
+}
+.center .btns .button:first-child
+{
+	color: #fff;
+	background: none;
+}
+.center .btns button:first-child:hover
+{
+	background: navajowhite;
+	color: #000;
+}
